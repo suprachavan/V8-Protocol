@@ -1,0 +1,47 @@
+Attached A in link L1 as : 0
+
+Attached B in link L1 as : 1
+
+Attached L1 in node A as : 0
+
+Attached L1 in node B as : 0
+
+Attached B in link L2 as : 0
+
+Attached C in link L2 as : 1
+
+Attached L2 in node B as : 2
+
+Attached L2 in node C as : 0
+
+Attached B in link L3 as : 0
+
+Attached D in link L3 as : 1
+
+Attached L3 in node B as : 3
+
+Attached L3 in node D as : 0
+
+header checksum in bytes at sender side : 01111010
+
+message checksum in bytes at sender side : 01001111
+
+Node A sent: CPSC 558 -- Adv Networking -- Project Part 1 -- Data Link
+
+Link L1 xmtd: CPSC 558 -- Adv Networking -- Project Part 1 -- Data Link
+
+header checksum in bytes at receiver side : 01111010
+
+header checksum verified at receiver side
+
+message checksum in bytes at receiver side : 01001111
+
+message checksum verified at receiver side
+
+Node B rcvd_f8 : CPSC 558 -- Adv Networking -- Project Part 1 -- Data Link
+
+
+this is the destination node
+
+
+
