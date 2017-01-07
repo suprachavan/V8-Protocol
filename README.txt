@@ -1,37 +1,22 @@
-• Program name
+â€¢ Program name
 	Project_Part1.cpp
 
-• Your Name (authors)
-	Supra P Chavan (CWID: 893448084) 
-	Chaitanya Chavan(CWID:802967919)
-	Niyati G Bichu(CWID: 893471748)
-
-• Contact info 
-	Name: Supra P Chavan
-	Email: supra.chavan@csu.fullerton.edu
-	Phone: (530)715-5038
+â€¢ Your Name (authors)
+	Supra P Chavan
 	
-	Name:Chaitanya Chavan
-	Email: ckc@fullerton.edu
-	Phone: (714)872-0552
-
-	Name: Niyati G Bichu
-	Email:niyatibichu@csu.fullerton.edu
-	Phone:(714)831-9303
-
-• Class number & Section 
+â€¢ Class number & Section 
 	CPSC 558 : Advanced Computer Networks Section : 01
 
-• Project ID
+â€¢ Project ID
 	Project Part 1
 
-• Introduction
+â€¢ Introduction
 	Implement the F-8 protocol over a small network to exchange message in F8 protocol frame. The host and link implementation of the Simple Data Link lab assignment is used. 
 
-• External Requirements 
+â€¢ External Requirements 
 	Requirement to have visual studio community edition 2015 installed on Windows Operating System
 
-• Build, Installation, and Setup
+â€¢ Build, Installation, and Setup
 	If not installed already, install visual studio community edition 2015 from microsoft official site.
 	Either create new c++ console application project- by going to file->new->project-select c++ in language tab->win32 console application.
 	The source code can be found in the folder- 558-P1-CNS->Project_Part1, in the file Project_Part1 which is a c++ source file
@@ -54,7 +39,7 @@ Note: attached in the folder- visual studio solution folder "Project_Part1"
 
 	README.txt
 
-• Usage 
+â€¢ Usage 
 	As mentioned in the introduction, this program implements the F-8 protocol over a tiny network and achieves exchange of a text message wrapped in an F8-frame.
 	step 1. Implementation of star topology with nodes A, B, C, D and links L1, L2, L3 by calling attach() functions
 	step 2. Construction of host map for each node
@@ -67,7 +52,7 @@ Note: attached in the folder- visual studio solution folder "Project_Part1"
 	step 9.	In rcv_f8(), extract msg from frame and display, also check whether its destination node or not, if not, forward the message using node's host map.	
 	
 
-• Extra Features
+â€¢ Extra Features
 	Implements a snd_f8r() function which duplicates snd_f8() and sends fragments in reverse.
 	each frame is of 30 bytes.
 	For fragmentation, DLEN field of F8 frame is set to 13 bytes. 
@@ -75,7 +60,7 @@ Note: attached in the folder- visual studio solution folder "Project_Part1"
 	seq numbers are assigned to each frame in ascending order begining from 32. i.e. 32, 33, 34, 35, 36.
 	In rcv_f8() function the fragments are re-assembled using F_seq field and message is extracted in order.
 
-• Bugs
+â€¢ Bugs
 	The code may result in some errors if run in a different environment e.g. linux.
 	Try these remedies- Comment the first line- #include "stdafx.h" (as this is a windows specific header file.)
 	Other errors may ocuur depending on c++ standard in use. (e.g. "for each" statement not supported)
